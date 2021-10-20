@@ -1,5 +1,5 @@
 
-package com.mycompany.mavenproject1;
+package gr.teohaik.polymorphism;
 
 /**
  *

@@ -1,0 +1,12 @@
+@startuml
+class gr.teohaik.polymorphism.Main
+class gr.teohaik.polymorphism.PaintCircle
+class gr.teohaik.polymorphism.PaintSquare
+class gr.teohaik.polymorphism.PaintTriangle
+
+
+gr.teohaik.polymorphism.PaintCircle --|> gr.teohaik.polymorphism.ShapePainter
+gr.teohaik.polymorphism.PaintSquare --|> gr.teohaik.polymorphism.ShapePainter
+gr.teohaik.polymorphism.PaintTriangle --|> gr.teohaik.polymorphism.ShapePainter
+interface gr.teohaik.polymorphism.ShapePainter
+@enduml
